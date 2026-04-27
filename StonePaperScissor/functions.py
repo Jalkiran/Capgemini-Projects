@@ -2,6 +2,7 @@ import random
 options=['Stone','Paper','Scissor']
 def stone():
     c=random.choice(options)
+    print("Opponent",c)
     if c=='Stone':
         print("Tied!🤐")
     elif c=='Paper':
@@ -11,6 +12,7 @@ def stone():
 
 def paper():
     c=random.choice(options)
+    print("Opponent",c)
     if c=='Stone':
         print("You Won!😏")
     elif c=='Paper':
@@ -20,6 +22,7 @@ def paper():
        
 def scissor():
     c=random.choice(options)
+    print("Opponent",c)
     if c=='Stone':
        print("You Lost!🥺")
     elif c=='Paper':
