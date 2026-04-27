@@ -12,7 +12,7 @@ def stone():
 
 def paper():
     c=random.choice(options)
-    print("Opponent",c)
+    print("Opponent-",c)
     if c=='Stone':
         print("You Won!😏")
     elif c=='Paper':
