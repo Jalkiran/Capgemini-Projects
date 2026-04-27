@@ -1,4 +1,4 @@
-
+from functions import *
 def menu():
     while True:
         print("\nMenu")
@@ -14,11 +14,11 @@ def menu():
             continue
 
         if choice==1:
-            pass
+            stone()
         elif choice==2:
-            pass
+            paper()
         elif choice==3:
-            pass
+            scissor()
         elif choice==4:
             print("GoodBye!")
             break
